@@ -202,7 +202,7 @@ The not in operator: The not in operator is used to check for the absence of an 
 
 3 in [1, 2, 3, 4] #returns true
 
-# Comments
+## Comments
 
 Comments in the Crypton language are used to add notes and explanations to the code. They are not executed and are intended solely to improve the readability and understanding of the code. Crypton supports single-line and multi-line comments.
 
@@ -235,10 +235,40 @@ function factorial(n) {
  }
 }
 
+## Lists
 
+Lists in the Crypton language are ordered collections of items that can be modified. They allow you to store multiple values in a single variable and perform various operations on these values.
 
+**Creating a list**
 
+The list is created using square brackets []. The list items are separated by commas.
 
+my_list = [1, 2, 3, 4, 5]
+
+**Indexes**
+
+The list items can be retrieved using an index. Indexes start from 0.
+
+my_list = [10, 20, 30, 40, 50]
+first_element = my_list[0]  #first_element will be 10
+second_element = my_list[1] #second_element will be 2
+
+**Sections**
+
+Slices allow you to extract subsets of items from a list. It is a powerful tool for working with data collections that allows you to select items by a range of indexes.
+
+Slices use square brackets and a colon`:` to specify a range of indexes.The syntax looks like this:
+
+my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+#Extracting elements from index 2 to index 5 (not including 5)
+sublist = my_list[2:5] # sublist will be equal to [2, 3, 4]
+
+#Extracting the first 3 elements
+first_three = my_list[:3] # first_three will be equal to [0, 1, 2]
+
+#Extracting items from index 6 to the end of the list
+from_six_to_end = my_list[6:] # from_six_to_end will be equal to [6, 7, 8, 9]
 
 
 
