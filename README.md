@@ -46,7 +46,7 @@ Example:
 
  [name] = [value]
 
- # Types of data
+ ## Types of data
 
  Crypton supports the following data types:
 
@@ -55,7 +55,7 @@ Example:
  Lines: "Hello, World!"
  Boolean values: true, false
 
- # operators
+ ## Operators
 
  **arithmetic operators**
  Arithmetic operators perform mathematical operations.
