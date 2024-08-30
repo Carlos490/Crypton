@@ -57,7 +57,7 @@ Example:
 
  ## Operators
 
- **arithmetic operators**
+ **Arithmetic operators**
  Arithmetic operators perform mathematical operations.
 
  Addition (+): Adds two operands.
@@ -88,7 +88,7 @@ Division remainder (%): Returns the remainder of the division of the first opera
 
 a = 50 % 4 #a = 2
 
-**comparison operators**
+**Comparison operators**
 Comparative operators are used to compare two values.
 
 Equals (==): Checks whether two operands are equal.
@@ -115,7 +115,7 @@ Less than or equal to (<=): Checks whether the first operand is less than or equ
 
 a = (5 <= 8) #a = true
 
-**logical operators**
+**Logical operators**
 Logical operators are used to perform logical operations.
 
 And (&&): Returns true if both operands are true.
