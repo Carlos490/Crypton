@@ -28,7 +28,7 @@ The following symbols are used in the Krypton programming language:
 
  The Krypton language does not support the following characters:
 
-- $, @, `  `, ;, ?, ', _
+- `$`, `@`, `  `, `;`, `?`,` ' `, `_`
 
 # Syntax
 
