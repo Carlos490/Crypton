@@ -28,7 +28,7 @@ The following symbols are used in the Krypton programming language:
 
  The Krypton language does not support the following characters:
 
-- `$`, `@`, `  `, `;`, `?`,` ' `, `_`
+- `$`, `@`,`;`, `?`,` ' `, `_`
 
 # Syntax
 
@@ -194,7 +194,46 @@ print("Very hot");
 
 **List Operators**
 
+The in operator: The in operator is used to check for the presence of an element in the list.
 
+3 in [1, 2, 3, 4] #returns true
+
+The not in operator: The not in operator is used to check for the absence of an element in the list.
+
+3 in [1, 2, 3, 4] #returns true
+
+# Comments
+
+Comments in the Crypton language are used to add notes and explanations to the code. They are not executed and are intended solely to improve the readability and understanding of the code. Crypton supports single-line and multi-line comments.
+
+**One-line comments**
+
+Single-line comments start with a double slash `#`. The comment continues to the end of the line.
+
+#This is a one-line comment
+
+x = 10 #Initializing the variable x with the value 10
+
+**Multiline comments**
+
+Multiline comments start with ## and end with ##. They can take up several lines and are used for more detailed explanations or temporary exclusion of large blocks of code.
+
+##
+This is a multi-line comment.
+It can take up several lines.
+##
+
+##
+A function for calculating the factorial of a number.
+A recursive approach is used to solve the problem.
+##
+function factorial(n) {
+ if (n == 0) {
+ return 1
+ } else {
+ return n * factorial(n - 1)
+ }
+}
 
 
 
