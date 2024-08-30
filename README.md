@@ -218,15 +218,15 @@ x = 10 #Initializing the variable x with the value 10
 
 Multiline comments start with ## and end with ##. They can take up several lines and are used for more detailed explanations or temporary exclusion of large blocks of code.
 
-##
+##c
 This is a multi-line comment.
 It can take up several lines.
-##
+##c
 
-##
+##c
 A function for calculating the factorial of a number.
 A recursive approach is used to solve the problem.
-##
+##c
 function factorial(n) {
  if (n == 0) {
  return 1
