@@ -292,7 +292,7 @@ numbers.insert(2, 3); // Inserts 3 at position 2
 
 The remove function is used to remove the first occurrence of the specified value from the list.
 
-int[] numbers = {1, 2, 3, 4};
+numbers = {1, 2, 3, 4};
 logical result = numbers.remove(3); #Get 3 from the message
 #result: true
 #Now the list is: {1, 2, 4}
@@ -301,7 +301,7 @@ logical result = numbers.remove(3); #Get 3 from the message
 
 The remove.all function removes all items from the list, clearing it.
 
-int[] numbers = {1, 2, 3, 4, 5};
+numbers = {1, 2, 3, 4, 5};
 numbers.remove.all(); #Removes all items from the list
 #Now the list is: {}
 
@@ -309,7 +309,7 @@ numbers.remove.all(); #Removes all items from the list
 
 The insert.end function adds an item to the end of the list.
 
-int[] numbers = {1, 2, 3};
+numbers = {1, 2, 3};
 numbers.insert.end(4); #Adds 4 to the end of the list
 #Now the list: {1, 2, 3, 4}
 
@@ -317,23 +317,23 @@ numbers.insert.end(4); #Adds 4 to the end of the list
 
 The len function returns the number of items in the list.
 
-int[] numbers = {1, 2, 3, 4, 5};
-int count = numbers.len(); #Returns 5
+numbers = {1, 2, 3, 4, 5};
+count = numbers.len(); #Returns 5
 #Now count is 5
 
 **The min function**
 
 The min function returns the smallest value from a list or set of numbers.
 
-int[] numbers = [7, 1, 5, 3];
-int smallest = min(numbers); #Returns 1
+numbers = [7, 1, 5, 3];
+smallest = min(numbers); #Returns 1
 
 **The max function**
 
 The max function returns the largest value from a list or set of numbers.
 
-int[] numbers = [7, 1, 5, 3];
-int largest = max(numbers); #Is 7
+numbers = [7, 1, 5, 3];
+largest = max(numbers); #Is 7
 
 
 
