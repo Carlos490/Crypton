@@ -1,4 +1,4 @@
-![изображение](https://github.com/user-attachments/assets/83358efb-a258-4bc1-8f72-db2daef95bea)# Crypton
+
 Crypton is a programming language based on Python. This language can be used in various fields, including software development and object-oriented programming.
 
 *System requirements:
