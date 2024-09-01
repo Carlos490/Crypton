@@ -192,6 +192,16 @@ print("Very hot");
  print("Temperature within normal limits");
 }
 
+the else if: statement is activated when the condition is met and if the if is not met.
+
+if (x > 10) {
+print("x is greater than 10");
+} else if (x == 10) {
+print("x equals 10");
+} else {
+ print("x less than 10");
+}
+
 **List Operators**
 
 The in operator: The in operator is used to check for the presence of an element in the list.
@@ -270,9 +280,63 @@ first_three = my_list[:3] # first_three will be equal to [0, 1, 2]
 #Extracting items from index 6 to the end of the list
 from_six_to_end = my_list[6:] # from_six_to_end will be equal to [6, 7, 8, 9]
 
+**insert function**
+
+The insert function is used to add an item to the list at the specified position.
+
+numbers = {1, 2, 4, 5};
+numbers.insert(2, 3); // Inserts 3 at position 2
+#Now the list: {1, 2, 3, 4, 5}
+
+**remove function**
+
+The remove function is used to remove the first occurrence of the specified value from the list.
+
+int[] numbers = {1, 2, 3, 4};
+logical result = numbers.remove(3); #Get 3 from the message
+#result: true
+#Now the list is: {1, 2, 4}
+
+**remove.all function**
+
+The remove.all function removes all items from the list, clearing it.
+
+int[] numbers = {1, 2, 3, 4, 5};
+numbers.remove.all(); #Removes all items from the list
+#Now the list is: {}
+
+**Insert.end function**
+
+The insert.end function adds an item to the end of the list.
+
+int[] numbers = {1, 2, 3};
+numbers.insert.end(4); #Adds 4 to the end of the list
+#Now the list: {1, 2, 3, 4}
+
+**The len function**
+
+The len function returns the number of items in the list.
+
+int[] numbers = {1, 2, 3, 4, 5};
+int count = numbers.len(); #Returns 5
+#Now count is 5
+
+**The min function**
+
+The min function returns the smallest value from a list or set of numbers.
+
+int[] numbers = [7, 1, 5, 3];
+int smallest = min(numbers); #Returns 1
+
+**The max function**
+
+The max function returns the largest value from a list or set of numbers.
+
+int[] numbers = [7, 1, 5, 3];
+int largest = max(numbers); #Is 7
 
 
- 
+
  
 
 
