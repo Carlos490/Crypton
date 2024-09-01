@@ -1,4 +1,3 @@
-
 Crypton is a programming language based on Python. This language can be used in various fields, including software development and object-oriented programming.
 
 *System requirements:
@@ -392,6 +391,28 @@ int i = 0;
 while (i < 5) {
 print(i); // Outputs: 0 1 2 3 4
 i++;
+}
+
+**The break operator**
+
+The break statement is used to exit the loop immediately. This can be useful when you need to interrupt the execution of a loop before completing all iterations based on the fulfillment of a certain condition.
+
+for i in [1, 2, 3, 4, 5] {
+ if i == 3 {
+ break
+ }
+ print(i)
+}
+
+**The continue statement**
+
+The continue statement is used to skip the current iteration of the loop and move on to the next iteration. This is useful when you need to skip certain steps in the execution of a loop based on the fulfillment of a condition.
+
+for i in [1, 2, 3, 4, 5] {
+if i % 2 == 0 {
+continue
+}
+output(i)
 }
 
 ## Mathematical functions
