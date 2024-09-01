@@ -1,4 +1,4 @@
-# Crypton
+![изображение](https://github.com/user-attachments/assets/83358efb-a258-4bc1-8f72-db2daef95bea)# Crypton
 Crypton is a programming language based on Python. This language can be used in various fields, including software development and object-oriented programming.
 
 *System requirements:
@@ -334,6 +334,99 @@ The max function returns the largest value from a list or set of numbers.
 
 numbers = [7, 1, 5, 3];
 largest = max(numbers); #Is 7
+
+**The count function**
+
+The count function returns the number of occurrences of a given item in the list.
+
+numbers = [1, 2, 2, 3, 4, 2];
+countOfTwos = numbers.count(2); #Returns 3
+
+**The sort.large method**
+
+The sort.large method is used to sort lists in ascending order. This method uses efficient sorting algorithms to process large amounts of data.
+
+large_numbers = [100, 5, 42, 89, 67, 23, 95];
+large_numbers.sort.large() #Sorts the list in ascending order
+print(large_numbers); #Outputs: [5, 23, 42, 67, 89, 95]
+
+**The sort.small method**
+
+The sort.small method is designed to sort lists in descending order. This method uses algorithms optimized for fast sorting on small amounts of data.
+
+small_numbers = [7, 1, 5, 3];
+small_numbers.sort.small(); #Writes the message in descending order
+print(small_numbers); #Output: [7, 5, 3, 1]
+
+## The print method
+
+The print method is used to output data to the screen. It can accept various types of data and output them to the console.
+
+print("Hello, World!") #Outputs: Hello, World!
+
+x = 10
+y = 3.14
+print(x, y); #Outputs: 10 3.14
+
+string name = "Alice"
+int age = 30
+type("Name:", name, "Age:", age) #Enter: Name: Alice Age: 30
+
+## Cycles
+
+Loops allow you to execute a block of code multiple times depending on conditions or data collections. Crypton supports two main types of loops: for and while.
+
+**The for loop**
+
+The for loop is used to iterate through items in collections or execute a block of code a certain number of times.
+
+for (int i = start; I < end; I++) {
+#Code block
+}
+
+**The while loop**
+
+The while loop executes a block of code as long as the specified condition is true. The loop continues execution as long as the condition remains true.
+
+int i = 0;
+while (i < 5) {
+print(i); // Outputs: 0 1 2 3 4
+i++;
+}
+
+## Mathematical functions
+
+The Crypton language provides a set of mathematical functions for working with numeric values. These functions include the calculation of logarithms, sines, cosines, and tangents.
+
+**The log function**
+
+The log function calculates the logarithm of a number based on a given basis.
+
+log_result = log(8, 2) #log(8) with base 2
+print(log_result) #Outputs: 3.0
+
+**The sin function**
+
+The sin function calculates the sine of the angle given in radians.
+
+sin_result = sin(3.14 / 2) #sin(π/2)
+print(sin_result) #Outputs: 1.0
+
+**The cos function**
+
+The cos function calculates the cosine of the angle given in radians.
+
+cos_result = cos(3.14) #cos(π)
+print(cos_result) #Outputs: -1.0
+
+**The tan function**
+
+The tan function calculates the tangent of the angle given in radians.
+
+tan_result = tan(3.14 / 4) #tan(π/4)
+print(tan_result) #Outputs: 1.0
+
+
 
 
 
