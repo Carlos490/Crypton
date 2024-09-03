@@ -271,53 +271,53 @@ Slices use square brackets and a colon`:` to specify a range of indexes.The synt
 my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 #Extracting elements from index 2 to index 5 (not including 5)
-sublist = my_list[2:5] # sublist will be equal to [2, 3, 4]
+sublist = my_list[2:5] #sublist will be equal to [2, 3, 4]
 
 #Extracting the first 3 elements
-first_three = my_list[:3] # first_three will be equal to [0, 1, 2]
+first_three = my_list[:3] #first_three will be equal to [0, 1, 2]
 
 #Extracting items from index 6 to the end of the list
-from_six_to_end = my_list[6:] # from_six_to_end will be equal to [6, 7, 8, 9]
+from_six_to_end = my_list[6:] #from_six_to_end will be equal to [6, 7, 8, 9]
 
 **insert function**
 
 The insert function is used to add an item to the list at the specified position.
 
-numbers = {1, 2, 4, 5};
-numbers.insert(2, 3); // Inserts 3 at position 2
-#Now the list: {1, 2, 3, 4, 5}
+numbers = [1, 2, 4, 5]
+numbers.insert(2, 3) #Inserts 3 at position 2
+#Now the list: [1, 2, 3, 4, 5]
 
 **remove function**
 
 The remove function is used to remove the first occurrence of the specified value from the list.
 
-numbers = {1, 2, 3, 4};
-logical result = numbers.remove(3); #Get 3 from the message
+numbers = [1, 2, 3, 4]
+logical result = numbers.remove(3) #Get 3 from the message
 #result: true
-#Now the list is: {1, 2, 4}
+#Now the list is: [1, 2, 4]
 
 **remove.all function**
 
 The remove.all function removes all items from the list, clearing it.
 
-numbers = {1, 2, 3, 4, 5};
-numbers.remove.all(); #Removes all items from the list
+numbers = [1, 2, 3, 4, 5]
+numbers.remove.all() #Removes all items from the list
 #Now the list is: {}
 
 **Insert.end function**
 
 The insert.end function adds an item to the end of the list.
 
-numbers = {1, 2, 3};
-numbers.insert.end(4); #Adds 4 to the end of the list
-#Now the list: {1, 2, 3, 4}
+numbers = [1, 2, 3]
+numbers.insert.end(4) #Adds 4 to the end of the list
+#Now the list: [1, 2, 3, 4]
 
 **The len function**
 
 The len function returns the number of items in the list.
 
-numbers = {1, 2, 3, 4, 5};
-count = numbers.len(); #Returns 5
+numbers = [1, 2, 3, 4, 5]
+count = numbers.len() #Returns 5
 #Now count is 5
 
 **The min function**
