@@ -447,6 +447,71 @@ The tan function calculates the tangent of the angle given in radians.
 tan_result = tan(3.14 / 4) #tan(π/4)
 print(tan_result) #Outputs: 1.0
 
+**The asin function**
+
+The asin function calculates the arcsine (or inverse sine) of a given value. Returns the angle in radians.
+
+asin(0.5) #Returns 0.5236 (π/6 radians)
+
+**The acos function**
+
+The acos function calculates the arccosine (or inverse cosine) of a given value. Returns the angle in radians.
+
+acos(0.5) #Returns 1.0472 (π/3 radians)
+
+**The atan function**
+
+The atan function calculates the arctangent (or inverse tangent) of a given value. Returns the angle in radians.
+
+atan(1) #Returns 0.7854 (π/4 radians)
+
+**the Atan function of two variables**
+
+The atan function of two variables calculates the arctangent of the ratio of two numbers, y and x. Returns the angle in radians.
+
+atan2(1, 1) #Returns 0.7854 (π/4 radians)
+
+**The sinh function**
+
+The sinh function calculates the hyperbolic sine of a given value.
+
+sinh(1) #Returns 1.1752
+
+**The cosh function**
+
+The cosh function calculates the hyperbolic cosine of a given value.
+
+cosh(1) #Returns 1.5431
+
+**The tanh function**
+
+The tanh function calculates the hyperbolic tangent of a given value.
+
+tanh(1) #Returns 0.7616
+
+**The asinh function**
+
+The asinh function calculates the hyperbolic arcsine of a given value.
+
+asinh(1) #Returns 0.8814
+
+**The acosh function**
+
+The acosh function calculates the hyperbolic arccosine of a given value.
+
+acosh(1) #Returns 0
+
+**The atanh function**
+
+The atanh function calculates the hyperbolic arctangent of a given value.
+
+atanh(0.5) #Returns 0.5493
+
+
+
+
+
+
 
 
 
