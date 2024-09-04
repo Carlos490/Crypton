@@ -19,7 +19,7 @@ The following symbols are used in the Krypton programming language:
  Simple characters:`~`, `!`, `#`, `%`, `&`, `*`, `-`, `+`, `=`, `[`, `]`, `{`, `}`, `,`, `.`, `/`, `\`, `|`,`<`,`^`
  meaning:
  Operators**: `+`, `-`, `*`, `/`, `%` etc.
- Separators: `,`, `.`, `;`
+ Separators: `,`, `.`, 
  Brackets: `()`, `{}`, `[]`
  Characters for strings**: `"`
 
